@@ -14,9 +14,9 @@ wget ${FOLDER}/app.py
 
 mkdir templates && cd templates
 
-wget ${FOLDER}/index.html
+wget ${FOLDER}/templates/index.html
 
-wget ${FOLDER}/result.html
+wget ${FOLDER}/templates/result.html
 
 cd ..
 sudo python3 app.py
