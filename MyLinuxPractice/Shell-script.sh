@@ -47,14 +47,14 @@
 
 # COMPARISON
 
-NUM1=31
-NUM2=4
-if [ " $NUM1" -gt "$NUM2" ]
-then
-    echo "$NUM1 is greater than $NUM2"
-else 
-    echo "$NUM1 is less than $NUM2"
-fi
+# NUM1=31
+# NUM2=4
+# if [ " $NUM1" -gt "$NUM2" ]
+# then
+#     echo "$NUM1 is greater than $NUM2"
+# else 
+#     echo "$NUM1 is less than $NUM2"
+# fi
 
 ######
 # -eq is used to determine if values are equal
