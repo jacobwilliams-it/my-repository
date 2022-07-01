@@ -65,3 +65,37 @@
 # -le is less than or equal to
 #######
 
+# #FILE CONDITIONS
+# FILE="test.txt"
+# if [ -e "$FILE" ] 
+# then
+#     echo "$FILE is a file"
+# else 
+#     echo "$FILE is NOT a file"
+# fi
+
+
+########
+# -d file   True if the file is a directory
+# -e file   True if the file exists (note that this is not particularly portable, thus -f is generally used)
+# -f file   True if the provided string is a file
+# -g file   True if the group id is set on a file
+# -r file   True if the file is readable
+# -s file   True if the file has a non-zero size
+# -u file   True if the user id is set on a file
+# -w file   True if the file is writable
+# -x file   True if the file is an executable
+
+#CASE STATEMENTS
+# read -p "do you want to go to the races? Yes or no" ANSWER
+# case "$ANSWER" in
+#   [Yy] | [Yy][eE][sS]) 
+#     echo "Great! lets GO!"
+#     ;;
+#   [nN] | [nN][oO])
+#     echo "Well, I'll take Ricky Bobby"
+#     ;;
+# *)
+#     echo "Please enter Yes or No"
+# esac
+
