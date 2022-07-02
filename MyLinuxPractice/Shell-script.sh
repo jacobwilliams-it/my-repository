@@ -14,8 +14,7 @@
 #   echo "My name is ${NAME}"
 
 # USER-INPUT
-#  read -p "Enter your name: " NAME
-#   echo "Hello $NAME, nice to meet you!"
+#  if
 
 
 # Simple if statement
@@ -98,4 +97,3 @@
 # *)
 #     echo "Please enter Yes or No"
 # esac
-
